@@ -9,4 +9,3 @@ SELECT
     SUM([purchase_amount]) AS total_revenue
 FROM customer
 GROUP BY [discount_applied];
-ORDER BY total_revenue DESC;
